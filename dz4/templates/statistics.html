@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Статистика</title>
+</head>
+<body>
+    
+	<table border = "3" align = "center">
+    {% for stroka in spisok_2 %}
+    <tr><td>{{ stroka[0] }}</td><td>{{ stroka[1] }}</td></tr>
+    {% endfor %}
+	</table>
+</body>
+</html>

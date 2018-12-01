@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+</head>
+<body>
+<form>
+    <label>Где Вы родились?: <input type="text" name="place"> </label><br>
+    <label>Возраст: <input type="text" name="age"></label><br>
+    <label> <input type="checkbox" name="ye"> Я говорю "компьютЕр"</label><br>
+    <label> <input type="checkbox" name="ee"> Я говорю "компьютЭр"</label><br>
+    <label> <input type="checkbox" name="kakugodno"> Я говорю как хочу</label><br>	
+	<label> <input type="checkbox" name="stop"> Закончить ввод данных для всех носителей</label><br>
+    <input type="submit" value="Отправить">
+	<ul>
+    {% for name, url in ssylki.items() %}
+    <li><a href="{{ url }}">{{ name }}</a></li>
+    {% endfor %}
+	</ul>
+</form>
+</body>
+</html>
