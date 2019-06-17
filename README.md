@@ -7,3 +7,4 @@
 5. - ¯\_(ツ)_/¯
 6. Vk Api -https://github.com/aasergienko/proga_2/tree/master/dz6 
 7. Графы и word2vec - https://github.com/aasergienko/proga_2/tree/master/dz7
+Финальный проект - https://github.com/aasergienko/proga_2/tree/master/FinalProject
