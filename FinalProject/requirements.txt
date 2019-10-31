@@ -1,3 +1,3 @@
 ﻿markovify==0.7.1
 pyTelegramBotAPI==3.6.6
-urllib3==1.23
+urllib3==1.24.2
